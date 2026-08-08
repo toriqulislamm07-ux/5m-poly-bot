@@ -1,3 +1,4 @@
+from keep_alive import keep_alive
 """
 crypto_bot.py — ETH/BTC Up/Down 5min Trading Bot with Window Delta
 Strategy:
@@ -598,6 +599,7 @@ if __name__ == "__main__":
 
     dry_run = args.dry_run
     paper   = args.paper or (not args.live and not dry_run)
+    keep_alive()
 
     bot = CryptoBot(paper=paper, dry_run=dry_run, amount=args.amount)
     bot.run()
