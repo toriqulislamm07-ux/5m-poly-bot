@@ -33,7 +33,7 @@ load_dotenv()
 # ─── CONFIG ────────────────────────────────────────────────────────────────────
 GAMMA_API         = "https://gamma-api.polymarket.com"
 CLOB_API          = "https://clob.polymarket.com"
-BINANCE_API       = "https://api.binance.com"
+BINANCE_API       = "https://api.binance.us"
 
 ENTRY_SECONDS_MAX = 50
 ENTRY_SECONDS_MIN = 10
